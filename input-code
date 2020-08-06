@@ -1,0 +1,39 @@
+# Desc - Pseudo code - ask user questions as input and display answers 
+
+# Program start
+		
+# input section
+
+		# input "Enter your name" into the variable username 
+		# input "Enter a color that starts with the letter " into the variable color 
+		# input "Enter your hobbies" into the variable hobby
+
+# output section
+	
+  # Display "Hi, " + userName + "!"
+	# Display "My name is Monique."
+	# Display "I noticed your name starts with the letter " + userName[0] + "."
+	# Display “Try to name a color with the letter " + userName[0] + "."
+	# Display “color + " is my favorite color!”
+	# Display “What are your hobbies?"
+	# Display "Wow, that's so cool!"
+	# Display "It was nice talking to you " + userName + "!”
+	
+# eop
+
+def main():
+
+	userName = input("Enter your name")
+	print("Hi, " + userName + "!")
+	print("My name is Monique.")
+	print("I noticed your name starts with the letter " + userName[0] + ".")
+	print("Try to name a color with the letter " + userName[0] + ".")
+	color = input("Enter a color that starts with the letter " + userName[0])
+	print(color + " is my favorite color!")
+	hobby = input("Enter your hobbies")
+	print("What are your hobbies?")
+	print(hobby)
+	print("Wow, that's so cool!")
+	print("It was nice talking to you " + userName + "!")
+
+main()
